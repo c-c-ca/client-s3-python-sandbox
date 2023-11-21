@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+    "python.envFile": "${workspaceFolder}/.venv",
+    "mypy.runUsingActiveInterpreter": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "python.analysis.typeCheckingMode": "off",
+    "python.formatting.provider": "none",
+}
